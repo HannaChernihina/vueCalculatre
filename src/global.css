@@ -1,0 +1,25 @@
+#appMain {
+  max-width: 50vw;
+  margin: 0 auto;
+}
+.formula-input {
+  font-size: 2rem;
+}
+.v-text-field.v-text-field--solo .v-input__control input {
+  text-align: end;
+}
+.v-text-field__details {
+  display: none;
+}
+.v-input__slot {
+  height: 65px;
+}
+.containerApp {
+  color: #000;
+}
+
+@media screen and (max-width: 500px) {
+  button#swap {
+    font-size: 9px;
+  }
+}
